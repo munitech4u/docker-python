@@ -464,6 +464,7 @@ RUN pip install bcolz && \
     pip install wcwidth && \
     pip install webencodings && \
     pip install widgetsnbextension && \
+    pip install pyramid-arima && \
     cd /usr/local/src && git clone --depth=1 https://github.com/fastai/fastai && \
     cd fastai && python setup.py install && \
     # clean up pip cache
